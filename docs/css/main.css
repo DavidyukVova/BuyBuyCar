@@ -25,7 +25,7 @@ main {
 .main-page {
     position: relative;
     min-height: 100vh;
-    background: var(--background-color-white);
+    background: #F9FAFE;
     overflow: hidden;
     z-index: 1;
 }
@@ -333,4 +333,11 @@ main {
     background: #FFFFFF;
     box-shadow: 0px 8px 16px rgba(47, 63, 82, 0.08), 0px 0px 1px rgba(0, 0, 0, 0.12);
     border-radius: 5px;
+}
+
+.five-sections .products-wrap .product-item {
+    background: var(--background-color-white);
+    box-shadow: 0px 8px 16px rgba(47, 63, 82, 0.08), 0px 0px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    height: 590px;
 }
