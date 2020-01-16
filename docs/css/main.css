@@ -84,8 +84,13 @@ main {
     font-size: 16px;
 }
 
+.header .top-phone-link svg {
+    margin-right: 16px;
+}
+
 .header .top-phone-link:hover {
     background: #e2edfb;
+    border-radius: 4px;
 }
 
 .header .top-menu .top-menu-item a:hover {
@@ -112,6 +117,7 @@ main {
     font-size: 72px;
     line-height: 88px;
     margin: 0 0 40px 0;
+    color: var(--font-color-3);
 }
 
 .main-page .first-section .description {
@@ -188,6 +194,7 @@ main {
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase;
+    border-radius: 0px 4px 4px 0px;
 }
 
 .second-sections .banner-block {
@@ -256,6 +263,10 @@ main {
     background-image: url("../img/brands/brand_hover_3.svg");
 }
 
+.fourth-sections {
+    padding-bottom: 40px;
+}
+
 .fourth-sections .item {
     text-align: center;
 }
@@ -287,4 +298,13 @@ main {
     font-size: 22px;
     line-height: 27px;
     color: var(--font-color-1);
+    margin: 32px 0;
+}
+
+.five-sections .title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: var(--font-color-3);
+    margin: 0 0 32px 0;
 }
