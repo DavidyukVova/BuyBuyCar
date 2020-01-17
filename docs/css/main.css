@@ -344,6 +344,11 @@ main {
     box-shadow: 0px 8px 16px rgba(47, 63, 82, 0.08), 0px 0px 1px rgba(0, 0, 0, 0.12);
     border-radius: 5px;
     height: 590px;
+    cursor: pointer;
+}
+
+.products-wrap .product-item:hover {
+    box-shadow: 0px 8px 20px rgba(47, 63, 82, 0.16), 0px 0px 1px rgba(0, 0, 0, 0.12);
 }
 
 .products-wrap .product-item .product-image {
@@ -371,7 +376,7 @@ main {
     margin-bottom: 6px;
     font-weight: 400;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 20px;
     color: var(--product-color-2);
 }
 
@@ -426,6 +431,12 @@ main {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--product-color-3);
+    transition: 0.15s all linear;
+}
+
+.products-wrap .product-item .more-block a:hover {
+    text-decoration: underline;
+    color: var(--font-hover-color-1);
 }
 
 .products-wrap .product-item .buy-widget {
@@ -446,8 +457,15 @@ main {
     width: 139px;
     height: 44px;
     border-radius: 5px;
-    background: var(--product-color-3);
+    background: var(--button-color-1);
     color: var(--font-color-white);
     box-shadow: none;
     border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.15s all linear;
+}
+
+.products-wrap .product-item .buy-widget .buy-btn:hover {
+    background: var(--button-hover-color-1);
 }

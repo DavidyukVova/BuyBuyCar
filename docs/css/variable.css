@@ -6,6 +6,8 @@
     --font-color-3: #242440;
     --font-color-4: #0E0E2B;
 
+    --font-hover-color-1: #0062D6;
+
     --product-color-1: #171734;
     --product-color-2: #49495A;
     --product-color-3: #13398D;
@@ -19,4 +21,6 @@
     --border-color-2: #DCDCEE;
 
     --button-color-1: #13398D;
+
+    --button-hover-color-1: #0062D6;
 }
