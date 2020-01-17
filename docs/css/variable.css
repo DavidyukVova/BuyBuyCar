@@ -5,6 +5,7 @@
     --font-color-2: #85859C;
     --font-color-3: #242440;
     --font-color-4: #0E0E2B;
+    --font-color-5: #13398D;
 
     --font-hover-color-1: #0062D6;
 
@@ -23,4 +24,5 @@
     --button-color-1: #13398D;
 
     --button-hover-color-1: #0062D6;
+    --button-hover-color-2: #EDEDF6;
 }
