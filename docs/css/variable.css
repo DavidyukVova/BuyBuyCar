@@ -4,7 +4,11 @@
     --font-color-1: #35354D;
     --font-color-2: #85859C;
     --font-color-3: #242440;
-    --font-color-4: #0E0E2B;;
+    --font-color-4: #0E0E2B;
+
+    --product-color-1: #171734;
+    --product-color-2: #49495A;
+    --product-color-3: #13398D;
 
     --background-color-white: #ffffff;
     --background-color-2: #EDEDF6;;
@@ -12,6 +16,7 @@
     --backgrond-hover-color-1: #E2EDFB;
 
     --border-color-1: #CEE1F9;
+    --border-color-2: #DCDCEE;
 
     --button-color-1: #13398D;
 }
