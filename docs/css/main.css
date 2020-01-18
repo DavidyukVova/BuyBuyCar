@@ -126,6 +126,11 @@ main {
     line-height: 30px;
     text-align: center;
     margin: 0;
+    color: var(--font-color-6);
+}
+
+.main-page .first-section .description span {
+    color: var(--font-color-5);
 }
 
 .second-sections .banner-decoration-block {
@@ -708,4 +713,75 @@ main {
 
 .footer-sections .footer .footer-link-block a.social {
     color: var(--font-color-5);
+}
+
+@media (max-width: 1400px) {
+    .main-page .ellipse {
+        right: -54%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .main-page .ellipse {
+        right: -70%;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-page .ellipse {
+        right: -95%;
+    }
+
+    .header .top-menu .top-menu-item {
+        padding: 0 12px;
+    }
+
+    .header .top-menu .top-menu-item a {
+        font-size: 14px;
+    }
+
+    .header .top-phone-link {
+        padding: 10px 2px;
+        font-size: 14px;
+    }
+    .third-sections .brands {
+        justify-content: flex-start;
+    }
+
+    .fourth-sections .item .description {
+        font-size: 20px;
+    }
+
+    .main-page .first-section .title {
+        font-size: 56px;
+        line-height: 68px;
+    }
+
+    .products-wrap .product-item {
+        margin-bottom: 30px;
+    }
+
+    .five-sections {
+        padding-bottom: 10px;
+    }
+
+    .sixth-sections .task-block .task-item {
+        margin-bottom: 16px;
+    }
+
+    .sixth-sections .task-block .task-item .number-wrap {
+        margin-right: 16px;
+    }
+
+    .sixth-sections .task-block .task-item .info .task-title {
+        font-size: 16px;
+    }
+
+    .call-back-sections .call-back-form {
+        padding: 40px 24px 48px;
+    }
+}
+
+@media (max-width: 767px) {
+
 }
