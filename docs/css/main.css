@@ -97,6 +97,21 @@ main {
     border-bottom: 1px solid #13398D;
 }
 
+.header .mobile-menu-button {
+    padding: 15px 12px;
+    width: 48px;
+    float: right;
+}
+
+.header .mobile-menu-button .line {
+    background: #85859C;
+    height: 2px;
+}
+
+.header .mobile-menu-button .line:nth-child(2) {
+    margin: 6px 0;
+}
+
 .first-section {
     margin-top: 84px;
     position: relative;
@@ -788,4 +803,10 @@ main {
 
 @media (max-width: 767px) {
 
+}
+
+@media (max-width: 575px) {
+    .header {
+        background: var(--background-color-white) !important;
+    }
 }
