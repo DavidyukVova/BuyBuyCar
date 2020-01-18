@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aeaac9f4-6226-4aa7-b0ed-ecea6846137e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/docs/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="616">
-                  <caret line="163" column="83" selection-start-line="163" selection-start-column="83" selection-end-line="163" selection-end-column="83" />
+                <state relative-caret-position="366">
+                  <caret line="686" column="49" selection-start-line="686" selection-start-column="49" selection-end-line="686" selection-end-column="49" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -38,8 +37,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/docs/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="621">
-                  <caret line="284" column="14" lean-forward="true" selection-start-line="284" selection-start-column="14" selection-end-line="284" selection-end-column="14" />
+                <state relative-caret-position="247">
+                  <caret line="267" column="1" lean-forward="true" selection-start-line="267" selection-start-column="1" selection-end-line="267" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -74,8 +73,8 @@
       <list>
         <option value="$PROJECT_DIR$/docs/js/common.js" />
         <option value="$PROJECT_DIR$/docs/css/variable.css" />
-        <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/docs/css/main.css" />
+        <option value="$PROJECT_DIR$/docs/index.html" />
       </list>
     </option>
   </component>
@@ -166,7 +165,7 @@
       <workItem from="1579199956335" duration="11239000" />
       <workItem from="1579248964313" duration="414000" />
       <workItem from="1579273392834" duration="19799000" />
-      <workItem from="1579337137607" duration="10350000" />
+      <workItem from="1579337137607" duration="11479000" />
     </task>
     <task id="LOCAL-00001" summary="add FAQ block">
       <created>1579341493381</created>
@@ -203,11 +202,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579347565819</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add decorative lines">
+      <created>1579348309943</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579348309943</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41802000" />
+    <option name="totallyTimeSpent" value="42931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -269,7 +275,8 @@
     <MESSAGE value="add call back form" />
     <MESSAGE value="add footer" />
     <MESSAGE value="fix hover in header menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix hover in header menu" />
+    <MESSAGE value="add decorative lines" />
+    <option name="LAST_COMMIT_MESSAGE" value="add decorative lines" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docs/img/icons/check-circle.svg" />
@@ -290,23 +297,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="267" column="1" lean-forward="true" selection-start-line="267" selection-start-column="1" selection-end-line="267" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="163" column="83" selection-start-line="163" selection-start-column="83" selection-end-line="163" selection-end-column="83" />
+        <state relative-caret-position="366">
+          <caret line="686" column="49" selection-start-line="686" selection-start-column="49" selection-end-line="686" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#7;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="284" column="14" lean-forward="true" selection-start-line="284" selection-start-column="14" selection-end-line="284" selection-end-column="14" />
         </state>
       </provider>
     </entry>
