@@ -812,12 +812,12 @@
 
 
             <!-- Modal -->
-            <div class="modal fade buy-modal" id="buyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade buy-modal" id="buyModal" tabindex="-1" role="dialog" aria-labelledby="buyModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <form>
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Оставьте заявку сейчас и мы свяжемся с Вами👇</h5>
+                                <h5 class="modal-title" id="buyModalLabel">Оставьте заявку сейчас и мы свяжемся с Вами👇</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
@@ -835,10 +835,35 @@
                                 </div>
                             </div>
                             <div class="modal-footer">
-                                <button type="submit" class="btn btn-primary send-form">Подобрать</button>
+                                <button type="submit" class="btn btn-primary send-form"  data-toggle="modal" data-target="#subscribeModal">Подобрать</button>
                             </div>
                         </div>
                     </form>
+                </div>
+            </div>
+
+            <!-- Modal 2 -->
+            <div class="modal fade subscribe-modal" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <p class="modal-emoji">🤝</p>
+                            <h5 class="modal-title" id="subscribeModalLabel">Заявка успешно оставленна!</h5>
+                            <p class="subscribe-text">Наш представитель свяжется с вами в ближайшее время.</p>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Подпишитесь на нас:</p>
+                            <div class="social-item">
+                                <a href="#">Instagram</a>
+                            </div>
+                            <div class="social-item">
+                                <a href="#">Telegtam</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
