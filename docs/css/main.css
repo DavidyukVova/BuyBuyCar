@@ -616,6 +616,7 @@ main {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    white-space: normal;
 }
 
 .faq-block .faq-item .card {
@@ -802,11 +803,43 @@ main {
 }
 
 @media (max-width: 767px) {
-
+    .main-page .ellipse {
+        right: -135%;
+    }
+    .fourth-sections .item-2 {
+        margin-top: 0;
+    }
+    .fourth-sections .item .description {
+        margin: 24px 0 40px 0;
+    }
+    .five-sections .title {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .sixth-sections .title {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .contacts-sections .title {
+        font-size: 32px;
+        line-height: 39px;
+        margin: 0;
+    }
+    .call-back-sections .call-back-form .title {
+        font-size: 24px;
+        line-height: 29px;
+    }
 }
 
 @media (max-width: 575px) {
     .header {
         background: var(--background-color-white) !important;
+    }
+
+    .header .logo-link img {
+        height: 32px;
+    }
+    .third-sections .brands {
+        flex-wrap: wrap;
     }
 }
