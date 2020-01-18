@@ -732,6 +732,10 @@ main {
         right: -95%;
     }
 
+    .header .logo-link img {
+        height: 40px;
+    }
+
     .header .top-menu .top-menu-item {
         padding: 0 12px;
     }
