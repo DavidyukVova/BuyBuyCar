@@ -139,37 +139,37 @@ main {
     z-index: 5;
 }
 
-.second-sections .form-block {
+.form-block {
     z-index: 10;
 }
 
-.second-sections .form {
+.form {
     background: var(--background-color-white);
     border: 1px solid var(--border-color-1);
     border-radius: 5px;
     z-index: 5;
 }
 
-.second-sections .form .input-wrap {
+.form .input-wrap {
     border-right: 1px solid var(--border-color-1);
 }
 
-.second-sections .form .name-block,
-.second-sections .form .phone-block {
+.form .name-block,
+.form .phone-block {
     padding: 16px 0 6px 16px;
     display: flex;
     flex-direction: column;
 }
 
-.second-sections .form .name-block label,
-.second-sections .form .phone-block label {
+.form .name-block label,
+.form .phone-block label {
     font-size: 14px;
     color: var(--font-color-2);
     line-height: 17px;
 }
 
-.second-sections .form .name-block input,
-.second-sections .form .phone-block input {
+.form .name-block input,
+.form .phone-block input {
     padding: 8px 0;
     border: none;
     font-size: 16px;
@@ -177,12 +177,12 @@ main {
     color: var(--font-color-1);
 }
 
-.second-sections .send-btn-wrap {
+.send-btn-wrap {
     display: flex;
     justify-content: flex-end;
 }
 
-.second-sections .send {
+.send {
     width: 100%;
     max-width: 204px;
     height: 100%;
@@ -634,4 +634,34 @@ main {
 .contacts-sections .map-wrap {
     background: #F0F3F7;
     width: 100%;
+}
+
+.call-back-sections .call-back-form {
+    background: var(--background-color-white);
+    box-shadow: 0px 8px 16px rgba(47, 63, 82, 0.08), 0px 0px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-bottom: 48px;
+    margin-bottom: 64px;
+}
+
+.call-back-sections .call-back-form .top-info,
+.call-back-sections .call-back-form .title {
+    text-align: center;
+}
+
+.call-back-sections .call-back-form .top-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--font-color-1);
+    margin-bottom: 16px;
+}
+
+.call-back-sections .call-back-form .title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: var(--font-color-1);
+    margin-bottom: 24px;
 }
