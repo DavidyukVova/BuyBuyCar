@@ -479,7 +479,7 @@ main {
 }
 
 .sixth-sections {
-    padding: 40px 0 16px 0;
+    padding: 40px 0 52px 0;
 }
 .sixth-sections .title {
     font-weight: 700;
@@ -593,4 +593,45 @@ main {
     font-size: 14px;
     line-height: 20px;
     padding-top: 0;
+}
+
+.contacts-sections .title {
+    margin: 0 0 24px 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: var(--font-color-4);
+}
+
+.contacts-sections {
+    padding-bottom: 64px;
+}
+
+.contacts-sections .contacts-block {
+    margin-top: 24px;
+}
+
+.contacts-sections .contacts-block .item {
+    margin: 0 0 32px 0;
+}
+
+.contacts-sections .contacts-block .item .sub-title {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--font-color-3);
+}
+
+.contacts-sections .contacts-block .item p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--font-color-1);
+}
+
+.contacts-sections .map-wrap {
+    background: #F0F3F7;
+    width: 100%;
 }
