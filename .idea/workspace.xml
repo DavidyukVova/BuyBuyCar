@@ -19,8 +19,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/docs/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="396">
-                  <caret line="762" column="57" selection-start-line="762" selection-start-column="57" selection-end-line="762" selection-end-column="57" />
+                <state relative-caret-position="707">
+                  <caret line="785" column="75" selection-start-line="785" selection-start-column="75" selection-end-line="785" selection-end-column="75" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -38,8 +38,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/docs/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="611">
-                  <caret line="829" column="26" selection-start-line="829" selection-start-column="26" selection-end-line="829" selection-end-column="26" />
+                <state relative-caret-position="699">
+                  <caret line="900" column="26" selection-start-line="900" selection-start-column="26" selection-end-line="900" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -69,6 +69,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>top-phone-link</find>
+      <find>col-lg-8 col-xl-8 form-block</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,7 +172,7 @@
       <workItem from="1579199956335" duration="11239000" />
       <workItem from="1579248964313" duration="414000" />
       <workItem from="1579273392834" duration="19799000" />
-      <workItem from="1579337137607" duration="20408000" />
+      <workItem from="1579337137607" duration="25079000" />
     </task>
     <task id="LOCAL-00001" summary="add FAQ block">
       <created>1579341493381</created>
@@ -243,11 +244,25 @@
       <option name="project" value="LOCAL" />
       <updated>1579358610802</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix adaptive for small device">
+      <created>1579362963531</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579362963531</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix adaptive for small device first screen">
+      <created>1579363263677</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579363263677</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51860000" />
+    <option name="totallyTimeSpent" value="56531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -314,19 +329,14 @@
     <MESSAGE value="fix second sections and fix adaptive for tablet" />
     <MESSAGE value="fix logo adaptation" />
     <MESSAGE value="fix header mobile adaptive" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix header mobile adaptive" />
+    <MESSAGE value="fix adaptive for small device" />
+    <MESSAGE value="fix adaptive for small device first screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix adaptive for small device first screen" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docs/img/icons/check-circle.svg" />
     <entry file="file://$PROJECT_DIR$/docs/js/libs.min.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/css/variable.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -335,10 +345,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/css/variable.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="762" column="57" selection-start-line="762" selection-start-column="57" selection-end-line="762" selection-end-column="57" />
+        <state relative-caret-position="707">
+          <caret line="785" column="75" selection-start-line="785" selection-start-column="75" selection-end-line="785" selection-end-column="75" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -350,8 +367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="829" column="26" selection-start-line="829" selection-start-column="26" selection-end-line="829" selection-end-column="26" />
+        <state relative-caret-position="699">
+          <caret line="900" column="26" selection-start-line="900" selection-start-column="26" selection-end-line="900" selection-end-column="26" />
         </state>
       </provider>
     </entry>
