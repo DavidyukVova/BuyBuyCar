@@ -799,29 +799,31 @@
             <!-- Modal -->
             <div class="modal fade buy-modal" id="buyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Оставьте заявку сейчас и мы свяжемся с Вами👇</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="modal-form">
-                                <div class="name-block">
-                                    <label for="modalName">Имя</label>
-                                    <input id="modalName" type="text" placeholder="Ваше имя">
-                                </div>
-                                <div class="phone-block">
-                                    <label for="modalPhone">Номер телефона</label>
-                                    <input id="modalPhone" type="tel" placeholder="+38 (0--) --- -- --">
+                    <form>
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Оставьте заявку сейчас и мы свяжемся с Вами👇</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modal-form">
+                                    <div class="name-block form-group">
+                                        <label for="modalName">Имя</label>
+                                        <input id="modalName" class="form-control" aria-describedby="emailHelp" type="email" placeholder="Ваше имя" required>
+                                    </div>
+                                    <div class="phone-block form-group">
+                                        <label for="modalPhone">Номер телефона</label>
+                                        <input id="modalPhone" class="form-control" type="tel" aria-describedby="phoneHelp" placeholder="+38 (0--) --- -- --" required>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-primary send-form">Подобрать</button>
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary send-form">Подобрать</button>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </main>
