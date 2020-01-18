@@ -665,3 +665,32 @@ main {
     color: var(--font-color-1);
     margin-bottom: 24px;
 }
+
+.footer-sections {
+    height: 100%;
+    min-height: 66px;
+}
+
+.footer-sections .footer {
+    height: 100%;
+    border-top: 1px solid #DCDCEE;
+}
+
+.footer-sections .footer .footer-link-block {
+    height: 100%;
+    min-height: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-sections .footer .footer-link-block a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--font-color-3);
+}
+
+.footer-sections .footer .footer-link-block a.social {
+    color: var(--font-color-5);
+}
