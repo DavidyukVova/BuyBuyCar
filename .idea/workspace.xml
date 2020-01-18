@@ -4,8 +4,6 @@
     <list default="true" id="aeaac9f4-6226-4aa7-b0ed-ecea6846137e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/variable.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/variable.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,14 +18,14 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/docs/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="707">
-                  <caret line="821" column="82" selection-start-line="821" selection-start-column="82" selection-end-line="821" selection-end-column="82" />
+                <state relative-caret-position="347">
+                  <caret line="805" column="108" lean-forward="true" selection-start-line="805" selection-start-column="108" selection-end-line="805" selection-end-column="108" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#7;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="e#69335#69342#1" expanded="true" />
+                    <element signature="e#69330#69337#1" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -40,8 +38,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/docs/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="787">
-                  <caret line="986" column="19" selection-start-line="986" selection-start-column="19" selection-end-line="986" selection-end-column="19" />
+                <state relative-caret-position="611">
+                  <caret line="922" column="24" selection-start-line="922" selection-start-column="24" selection-end-line="922" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -174,7 +172,7 @@
       <workItem from="1579199956335" duration="11239000" />
       <workItem from="1579248964313" duration="414000" />
       <workItem from="1579273392834" duration="19799000" />
-      <workItem from="1579337137607" duration="29530000" />
+      <workItem from="1579337137607" duration="31206000" />
     </task>
     <task id="LOCAL-00001" summary="add FAQ block">
       <created>1579341493381</created>
@@ -274,11 +272,25 @@
       <option name="project" value="LOCAL" />
       <updated>1579368443797</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add buy modal">
+      <created>1579372542701</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1579372542701</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add validation for modal form">
+      <created>1579374186902</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1579374186902</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60982000" />
+    <option name="totallyTimeSpent" value="62658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -349,7 +361,9 @@
     <MESSAGE value="fix adaptive for small device first screen" />
     <MESSAGE value="fix mobile adaptive" />
     <MESSAGE value="fix product photo" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix product photo" />
+    <MESSAGE value="add buy modal" />
+    <MESSAGE value="add validation for modal form" />
+    <option name="LAST_COMMIT_MESSAGE" value="add validation for modal form" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docs/img/icons/check-circle.svg" />
@@ -363,20 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="821" column="82" selection-start-line="821" selection-start-column="82" selection-end-line="821" selection-end-column="82" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#7;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#69335#69342#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/css/variable.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -384,10 +384,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="805" column="108" lean-forward="true" selection-start-line="805" selection-start-column="108" selection-end-line="805" selection-end-column="108" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#7;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#69330#69337#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="787">
-          <caret line="986" column="19" selection-start-line="986" selection-start-column="19" selection-end-line="986" selection-end-column="19" />
+        <state relative-caret-position="611">
+          <caret line="922" column="24" selection-start-line="922" selection-start-column="24" selection-end-line="922" selection-end-column="24" />
         </state>
       </provider>
     </entry>

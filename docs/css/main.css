@@ -919,6 +919,9 @@ main {
         font-size: 20px;
         line-height: 30px;
     }
+    .faq-block .faq-item .faq-btn span {
+        text-align: left;
+    }
 }
 
 @media (max-width: 575px) {
