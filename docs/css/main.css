@@ -269,6 +269,21 @@ main {
 
 .fourth-sections .item {
     text-align: center;
+    position: relative;
+}
+
+.fourth-sections .item .decorative-line-1 {
+    position: absolute;
+    top: 90px;
+    left: 74%;
+    display: block;
+}
+
+.fourth-sections .item .decorative-line-2 {
+    position: absolute;
+    top: -25px;
+    left: 70%;
+    display: block;
 }
 
 .fourth-sections .item .image-wrap {
