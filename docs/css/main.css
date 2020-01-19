@@ -555,6 +555,14 @@ main {
     border-radius: 5px;
 }
 
+.products-wrap {
+    display: none;
+}
+
+.products-wrap.active {
+    display: block;
+}
+
 .products-wrap .product-item {
     background: var(--background-color-white);
     -webkit-box-shadow: 0px 8px 16px rgba(47, 63, 82, 0.08), 0px 0px 1px rgba(0, 0, 0, 0.12);
