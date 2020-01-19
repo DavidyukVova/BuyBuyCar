@@ -94,6 +94,11 @@ main {
     background: var(--button-hover-color-1);
 }
 
+.subscribe-modal.show {
+    display: block;
+    background: rgba(14, 14, 43, .48);
+}
+
 .subscribe-modal .modal-dialog {
     max-width: 350px;
 }

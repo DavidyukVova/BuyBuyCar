@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="aeaac9f4-6226-4aa7-b0ed-ecea6846137e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/core/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/docs/core/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/common.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +21,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/docs/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="685">
-                  <caret line="1291" lean-forward="true" selection-start-line="1291" selection-end-line="1291" />
+                <state relative-caret-position="378">
+                  <caret line="1106" column="38" lean-forward="true" selection-start-line="1106" selection-start-column="38" selection-end-line="1106" selection-end-column="38" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -43,8 +46,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/docs/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="721">
-                  <caret line="562" column="19" selection-start-line="562" selection-start-column="19" selection-end-line="562" selection-end-column="19" />
+                <state relative-caret-position="435">
+                  <caret line="103" column="1" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -61,8 +64,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/docs/js/common.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="15" />
+                <state relative-caret-position="729">
+                  <caret line="176" column="3" selection-start-line="176" selection-start-column="3" selection-end-line="176" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/docs/core/mail.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
                 </state>
               </provider>
             </entry>
@@ -76,6 +88,8 @@
       <find>top-phone-link</find>
       <find>col-lg-8 col-xl-8 form-block</find>
       <find>products-wrap</find>
+      <find>.subs</find>
+      <find>co</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,6 +99,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/docs/css/variable.css" />
+        <option value="$PROJECT_DIR$/docs/core/mail.php" />
         <option value="$PROJECT_DIR$/docs/css/main.css" />
         <option value="$PROJECT_DIR$/docs/js/common.js" />
         <option value="$PROJECT_DIR$/docs/index.html" />
@@ -113,6 +128,12 @@
               <item name="BuyBuyCar" type="b2602c69:ProjectViewProjectNode" />
               <item name="BuyBuyCar" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BuyBuyCar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuyBuyCar" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BuyBuyCar" type="b2602c69:ProjectViewProjectNode" />
@@ -153,6 +174,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BuyBuyCar\docs" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -179,7 +205,7 @@
       <workItem from="1579248964313" duration="414000" />
       <workItem from="1579273392834" duration="19799000" />
       <workItem from="1579337137607" duration="35539000" />
-      <workItem from="1579430826409" duration="6037000" />
+      <workItem from="1579430826409" duration="14192000" />
     </task>
     <task id="LOCAL-00001" summary="add FAQ block">
       <created>1579341493381</created>
@@ -342,17 +368,31 @@
       <option name="project" value="LOCAL" />
       <updated>1579437821479</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add social link">
+      <created>1579438421239</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1579438421239</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add email form">
+      <created>1579440225918</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1579440225918</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73028000" />
+    <option name="totallyTimeSpent" value="81183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12899786" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12899786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -440,7 +480,9 @@
     <MESSAGE value="fix top menu" />
     <MESSAGE value="fix products" />
     <MESSAGE value="add all products" />
-    <option name="LAST_COMMIT_MESSAGE" value="add all products" />
+    <MESSAGE value="add social link" />
+    <MESSAGE value="add email form" />
+    <option name="LAST_COMMIT_MESSAGE" value="add email form" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docs/img/icons/check-circle.svg" />
@@ -454,24 +496,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/core/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="562" column="19" selection-start-line="562" selection-start-column="19" selection-end-line="562" selection-end-column="19" />
+        <state relative-caret-position="435">
+          <caret line="103" column="1" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="15" />
+        <state relative-caret-position="729">
+          <caret line="176" column="3" selection-start-line="176" selection-start-column="3" selection-end-line="176" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="1291" lean-forward="true" selection-start-line="1291" selection-end-line="1291" />
+        <state relative-caret-position="378">
+          <caret line="1106" column="38" lean-forward="true" selection-start-line="1106" selection-start-column="38" selection-end-line="1106" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />

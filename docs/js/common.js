@@ -69,11 +69,16 @@ function sendEmail1() {
             },
             function (data) {
                 if (data==1) {
-                    alert('Email sent!');
+                    // alert('Email sent!');
+                    // window.location.reload();
+
+                    $('#subscribeModal').modal({
+                        backdrop: 'static',
+                        keyboard: true
+                    });
+
                     name1.value.innerHTML = '';
                     phone1.value.innerHTML = '';
-
-
                 }
                 else {
                     alert('Заказ отправлено!');
@@ -104,7 +109,11 @@ function sendEmail2() {
             },
             function (data) {
                 if (data==1) {
-                    alert('Email sent!');
+                    // alert('Email sent!');
+                    $('#subscribeModal').modal({
+                        backdrop: 'static',
+                        keyboard: true
+                    });
                     name2.value.innerHTML = '';
                     phone2.value.innerHTML = '';
 
@@ -139,7 +148,11 @@ function sendEmail3() {
             },
             function (data) {
                 if (data==1) {
-                    alert('Email sent!');
+                    // alert('Email sent!');
+                    $('#subscribeModal').modal({
+                        backdrop: 'static',
+                        keyboard: true
+                    });
                     name3.value.innerHTML = '';
                     phone3.value.innerHTML = '';
 
@@ -158,3 +171,7 @@ function sendEmail3() {
     document.getElementById('name3').value = "";
     document.getElementById('phone3').value = "";
 }
+
+$('#subscribeModal').on('hide.bs.modal', function() {
+    window.location.reload();
+});

@@ -2,9 +2,8 @@
 //письмо
 $message = '';
 $message .= '<h1>Заказ з сайту BuyBuyCar</h1>';
-$message .= '<p>Name: '.$_POST['name'].'</p>';
-$message .= '<p>Phone: '.$_POST['phone'].'</p>';
-$message .= '<p>Article: '.$_POST['article'].'</p>';
+$message .= '<p>Имя: '.$_POST['name'].'</p>';
+$message .= '<p>Телефон: '.$_POST['phone'].'</p>';
 
 $to = 'vovkadavidyuk@gmail.com'.',';
 $to .=$_POST['email'];
