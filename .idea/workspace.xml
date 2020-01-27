@@ -4,7 +4,19 @@
     <list default="true" id="aeaac9f4-6226-4aa7-b0ed-ecea6846137e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/core/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/docs/core/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/fonts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Oswald-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Oswald-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Oswald-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Roboto-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Ubuntu-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Ubuntu-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/Ubuntu-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/baner.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/common.js" afterDir="false" />
     </list>
@@ -18,11 +30,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.58506733">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/docs/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="378">
-                  <caret line="1106" column="38" lean-forward="true" selection-start-line="1106" selection-start-column="38" selection-end-line="1106" selection-end-column="38" />
+                <state relative-caret-position="334">
+                  <caret line="1023" column="84" selection-start-line="1023" selection-start-column="84" selection-end-line="1023" selection-end-column="84" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -39,15 +51,33 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/docs/js/common.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="704">
+                  <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/docs/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="103" column="1" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
+                <state relative-caret-position="643">
+                  <caret line="959" column="41" selection-start-line="959" selection-start-column="41" selection-end-line="959" selection-end-column="41" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/docs/css/fonts.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="462">
+                  <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -61,20 +91,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/docs/js/common.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="729">
-                  <caret line="176" column="3" selection-start-line="176" selection-start-column="3" selection-end-line="176" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/docs/core/mail.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+                <state relative-caret-position="308">
+                  <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -90,6 +111,9 @@
       <find>products-wrap</find>
       <find>.subs</find>
       <find>co</find>
+      <find>baner</find>
+      <find>filter-block</find>
+      <find>faq-item</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,9 +124,10 @@
       <list>
         <option value="$PROJECT_DIR$/docs/css/variable.css" />
         <option value="$PROJECT_DIR$/docs/core/mail.php" />
-        <option value="$PROJECT_DIR$/docs/css/main.css" />
-        <option value="$PROJECT_DIR$/docs/js/common.js" />
+        <option value="$PROJECT_DIR$/docs/css/fonts.css" />
         <option value="$PROJECT_DIR$/docs/index.html" />
+        <option value="$PROJECT_DIR$/docs/js/common.js" />
+        <option value="$PROJECT_DIR$/docs/css/main.css" />
       </list>
     </option>
   </component>
@@ -117,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,6 +171,12 @@
               <item name="BuyBuyCar" type="b2602c69:ProjectViewProjectNode" />
               <item name="BuyBuyCar" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BuyBuyCar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BuyBuyCar" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -164,12 +196,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/filipchenko" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -205,7 +236,12 @@
       <workItem from="1579248964313" duration="414000" />
       <workItem from="1579273392834" duration="19799000" />
       <workItem from="1579337137607" duration="35539000" />
-      <workItem from="1579430826409" duration="14192000" />
+      <workItem from="1579430826409" duration="14282000" />
+      <workItem from="1579448835013" duration="1352000" />
+      <workItem from="1579507128066" duration="549000" />
+      <workItem from="1579894772277" duration="11707000" />
+      <workItem from="1580112582837" duration="45000" />
+      <workItem from="1580146616851" duration="6733000" />
     </task>
     <task id="LOCAL-00001" summary="add FAQ block">
       <created>1579341493381</created>
@@ -382,17 +418,24 @@
       <option name="project" value="LOCAL" />
       <updated>1579440225918</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="last fixed">
+      <created>1579448344567</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1579448344567</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81183000" />
+    <option name="totallyTimeSpent" value="101659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12899786" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -457,7 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add FAQ block" />
     <MESSAGE value="add contacts sections" />
     <MESSAGE value="add call back form" />
     <MESSAGE value="add footer" />
@@ -482,12 +524,20 @@
     <MESSAGE value="add all products" />
     <MESSAGE value="add social link" />
     <MESSAGE value="add email form" />
-    <option name="LAST_COMMIT_MESSAGE" value="add email form" />
+    <MESSAGE value="last fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="last fixed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docs/img/icons/check-circle.svg" />
     <entry file="file://$PROJECT_DIR$/docs/js/libs.min.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/css/variable.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -498,29 +548,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/core/mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="103" column="1" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="176" column="3" selection-start-line="176" selection-start-column="3" selection-end-line="176" selection-end-column="3" />
+        <state relative-caret-position="308">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="1106" column="38" lean-forward="true" selection-start-line="1106" selection-start-column="38" selection-end-line="1106" selection-end-column="38" />
+        <state relative-caret-position="334">
+          <caret line="1023" column="84" selection-start-line="1023" selection-start-column="84" selection-end-line="1023" selection-end-column="84" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -533,6 +569,20 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#5;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#7;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="959" column="41" selection-start-line="959" selection-start-column="41" selection-end-line="959" selection-end-column="41" />
         </state>
       </provider>
     </entry>

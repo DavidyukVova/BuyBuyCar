@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" type="image/png" sizes="48x48" href="./img/fav48.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/fav32.png">
-    <link rel="icon" type="image/png" sizes="16x416" href="./img/fav416.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/fav16.png">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <title>Buy Buy Car</title>
@@ -56,9 +56,9 @@
                                 </div>
                                 <div class="col-2 col-sm-2 d-block d-sm-block d-md-none">
                                     <div class="mobile-menu-button" data-toggle="collapse" href="#topMenuMobile" role="button" aria-expanded="false" aria-controls="topMenuMobile">
-                                        <div class="line"></div>
+                                        <div class="line line-1"></div>
                                         <div class="line second-line"></div>
-                                        <div class="line"></div>
+                                        <div class="line line-2"></div>
                                     </div>
                                 </div>
 
@@ -71,6 +71,14 @@
                                                     <li class="top-menu-item"><a class="bottomLink" href="#catalog">Каталог</a></li>
                                                     <li class="top-menu-item"><a class="bottomLink" href="#question">Вопросы</a></li>
                                                     <li class="top-menu-item"><a class="bottomLink" href="#contacts">Контакты</a></li>
+                                                    <li class="mobile-menu-phone">
+                                                        <a href="tel:+380952203614" class="phone-link-mobile">
+                                                            <svg class="phone-svg" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 23 23" fill="none">
+                                                                <path d="M14.0504 5C15.0272 5.19057 15.9248 5.66826 16.6285 6.37194C17.3322 7.07561 17.8099 7.97326 18.0004 8.95M14.0504 1C16.0797 1.22544 17.972 2.13417 19.4167 3.57701C20.8613 5.01984 21.7724 6.91101 22.0004 8.94M21.0004 16.92V19.92C21.0016 20.1985 20.9445 20.4742 20.8329 20.7293C20.7214 20.9845 20.5577 21.2136 20.3525 21.4019C20.1473 21.5901 19.905 21.7335 19.6412 21.8227C19.3773 21.9119 19.0978 21.9451 18.8204 21.92C15.7433 21.5856 12.7874 20.5341 10.1904 18.85C7.77425 17.3147 5.72576 15.2662 4.19042 12.85C2.5004 10.2412 1.44866 7.27099 1.12042 4.18C1.09543 3.90347 1.1283 3.62476 1.21692 3.36162C1.30555 3.09849 1.44799 2.85669 1.63519 2.65162C1.82238 2.44655 2.05023 2.28271 2.30421 2.17052C2.5582 2.05833 2.83276 2.00026 3.11042 2H6.11042C6.59573 1.99522 7.06621 2.16708 7.43418 2.48353C7.80215 2.79999 8.0425 3.23945 8.11042 3.72C8.23704 4.68007 8.47187 5.62273 8.81042 6.53C8.94497 6.88792 8.97408 7.27691 8.89433 7.65088C8.81457 8.02485 8.62928 8.36811 8.36042 8.64L7.09042 9.91C8.51398 12.4135 10.5869 14.4864 13.0904 15.91L14.3604 14.64C14.6323 14.3711 14.9756 14.1858 15.3495 14.1061C15.7235 14.0263 16.1125 14.0555 16.4704 14.19C17.3777 14.5286 18.3204 14.7634 19.2804 14.89C19.7662 14.9585 20.2098 15.2032 20.527 15.5775C20.8441 15.9518 21.0126 16.4296 21.0004 16.92Z" stroke="#13398D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                            </svg>
+                                                            <span>+380 95 220 3614</span>
+                                                        </a>
+                                                    </li>
                                                 </ul>
                                             </nav>
                                         </div>
@@ -122,7 +130,7 @@
                                             <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
                                                 <div class="phone-block">
                                                     <label for="phone1">Номер телефона</label>
-                                                    <input id="phone1" class="form-control" type="tel" name="phone" placeholder="+38 (0--) --- -- --" value="" required>
+                                                    <input id="phone1" class="form-control mask-phone" type="tel" name="phone" placeholder="+38 (0--) --- -- --" value="" required>
                                                 </div>
                                             </div>
                                             <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 send-btn-wrap">
@@ -132,7 +140,7 @@
                                     </form>
                                 </div>
                                 <div class="col-sm-12 d-none d-sm-block banner-block">
-                                    <img src="./img/baner.jpg" alt="">
+                                    <img src="./img/car-photo.jpg" alt="">
                                 </div>
                             </div>
 
@@ -216,17 +224,17 @@
                                 <div class="col-md-8 col-lg-6 col-xl-6">
                                     <div class="filter-block">
                                         <div class="row no-gutters">
-                                            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 p-0">
+                                            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-0">
                                                 <button class="filter-btn active" data-id="1">
                                                     до 8 000 $
                                                 </button>
                                             </div>
-                                            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 p-0">
+                                            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-0">
                                                 <button class="filter-btn" data-id="2">
                                                     до 12 000 $
                                                 </button>
                                             </div>
-                                            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 p-0">
+                                            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-0">
                                                 <button class="filter-btn" data-id="3">
                                                     до 16 000 $
                                                 </button>
@@ -1013,9 +1021,9 @@
                                     <div class="col-lg-8 col-xl-8">
                                         <!--1-->
                                         <div class="faq-item">
-                                            <button class="btn btn-primary faq-btn" type="button" data-toggle="collapse" data-target="#collapseFaq1" aria-expanded="false" aria-controls="collapseFaq1">
+                                            <button class="btn btn-primary faq-btn"  type="button" data-toggle="collapse" data-target="#collapseFaq1" aria-expanded="false" aria-controls="collapseFaq1">
                                                 <span>Какой срок доставки Авто из Сша?</span>
-                                                <img src="./img/icons/dropdown.svg" alt="">
+                                                <img class="arrow-img" src="./img/icons/dropdown.svg" alt="">
                                             </button>
                                             <div class="collapse" id="collapseFaq1">
                                                 <div class="card card-body">
@@ -1160,7 +1168,7 @@
                                                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
                                                             <div class="phone-block">
                                                                 <label for="phone2">Номер телефона</label>
-                                                                <input id="phone2" type="tel" name="phone2" placeholder="+38 (0--) --- -- --" required>
+                                                                <input id="phone2" class="mask-phone" type="tel" name="phone2" placeholder="+38 (0--) --- -- --" required>
                                                             </div>
                                                         </div>
                                                         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 send-btn-wrap">
@@ -1242,7 +1250,7 @@
                                     </div>
                                     <div class="phone-block form-group">
                                         <label for="phone3">Номер телефона</label>
-                                        <input id="phone3" class="form-control" type="tel" placeholder="+38 (0--) --- -- --" required>
+                                        <input id="phone3" class="form-control mask-phone" type="tel" placeholder="+38 (0--) --- -- --" required>
                                     </div>
                                 </div>
                             </div>
@@ -1269,10 +1277,16 @@
                         <div class="modal-body">
                             <p>Подпишитесь на нас:</p>
                             <div class="social-item">
-                                <a href="https://instagram.com/buy_buy_car?igshid=gmp0p256klpf">Instagram</a>
+                                <a class="inst" href="https://instagram.com/buy_buy_car?igshid=gmp0p256klpf">
+                                    <svg class="inst-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g clip-path="url(#clip0)"><path d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z" stroke="#49495A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.0002 11.37C16.1236 12.2022 15.9815 13.0522 15.594 13.799C15.2065 14.5458 14.5933 15.1514 13.8418 15.5297C13.0903 15.9079 12.2386 16.0396 11.408 15.9059C10.5773 15.7723 9.80996 15.3801 9.21503 14.7852C8.62011 14.1902 8.22793 13.4229 8.09426 12.5922C7.9606 11.7615 8.09226 10.9099 8.47052 10.1584C8.84878 9.40685 9.45438 8.79374 10.2012 8.40624C10.948 8.01874 11.7979 7.87658 12.6302 8C13.4791 8.12588 14.265 8.52146 14.8719 9.1283C15.4787 9.73515 15.8743 10.5211 16.0002 11.37Z" stroke="#49495A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0"><path d="M0 0H24V24H0V0Z" fill="white"/></clipPath></defs></svg>
+                                    Instagram
+                                </a>
                             </div>
                             <div class="social-item">
-                                <a href="https://t.me/joinchat/AAAAAEaO1tg9C2ZDzThiIQ">Telegtam</a>
+                                <a class="tg" href="https://t.me/joinchat/AAAAAEaO1tg9C2ZDzThiIQ">
+                                    <svg class="tg-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="22" viewBox="0 0 24 22" fill="none"><path d="M23.6294 1.38403C23.3363 1.02551 22.8972 0.828125 22.3929 0.828125C22.1188 0.828125 21.8284 0.885803 21.5299 0.999878L1.21439 8.75494C0.136268 9.16638 -0.00893449 9.78381 0.000403879 10.1152C0.00974225 10.4467 0.189735 11.0549 1.28947 11.4048C1.29606 11.4069 1.30265 11.4089 1.30924 11.4107L5.52323 12.6166L7.80216 19.1334C8.11289 20.0218 8.81034 20.5737 9.6226 20.5737C10.1347 20.5737 10.6385 20.3591 11.0794 19.9533L13.6859 17.5533L17.4665 20.5975C17.4668 20.5978 17.4674 20.598 17.4678 20.5984L17.5036 20.6273C17.5069 20.6299 17.5104 20.6326 17.5137 20.6352C17.9339 20.9611 18.3926 21.1332 18.8407 21.1334H18.8409C19.7163 21.1334 20.4134 20.4854 20.6164 19.4827L23.9451 3.04645C24.0788 2.38672 23.9667 1.79639 23.6294 1.38403ZM6.93296 12.3876L15.063 8.23419L10.0007 13.6133C9.91776 13.7014 9.85899 13.8092 9.83006 13.9266L8.85392 17.8806L6.93296 12.3876ZM10.1267 18.9188C10.093 18.9497 10.0591 18.9774 10.0252 19.0028L10.9309 15.3348L12.5783 16.6614L10.1267 18.9188ZM22.5669 2.76721L19.2382 19.2037C19.2062 19.361 19.1038 19.727 18.8407 19.727C18.7107 19.727 18.5473 19.6561 18.3802 19.5274L14.0962 16.0781C14.0957 16.0775 14.0949 16.077 14.0942 16.0766L11.5452 14.024L18.8659 6.24512C19.1003 5.99609 19.1216 5.61469 18.9163 5.34113C18.7109 5.06757 18.3386 4.98151 18.0341 5.13715L5.99345 11.2884L1.72214 10.0663L22.0315 2.31366C22.203 2.24811 22.3228 2.23438 22.3929 2.23438C22.4359 2.23438 22.5125 2.2395 22.5409 2.27448C22.5782 2.32007 22.6258 2.47552 22.5669 2.76721Z" fill="#49495A"/></svg>
+                                    Telegtam
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1284,6 +1298,7 @@
 
     <script src="js/libs.min.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/common.js"></script>
 

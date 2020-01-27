@@ -18,6 +18,10 @@ main {
     min-height: 100vh;
 }
 
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
 .modal-backdrop {
     background: #0E0E2B;
 }
@@ -94,9 +98,59 @@ main {
     background: var(--button-hover-color-1);
 }
 
-.subscribe-modal.show {
-    display: block;
-    background: rgba(14, 14, 43, .48);
+.subscribe-modal .modal-content {
+    padding: 30px 30px 48px;
+}
+
+.subscribe-modal .social-item a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #85859C;
+    border-radius: 5px;
+    padding: 12px 18px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--font-color-3);
+    text-decoration: none;
+    -webkit-transition: 0.15s all linear;
+    -o-transition: 0.15s all linear;
+    transition: 0.15s all linear;
+}
+
+.subscribe-modal .social-item a svg {
+    margin-right: 18px;
+}
+
+.subscribe-modal .social-item a svg.inst-svg path {
+    stroke: var(--font-color-3);
+}
+
+.subscribe-modal .social-item a svg.tg-svg path {
+    fill: var(--font-color-3);
+}
+
+.subscribe-modal .social-item a:hover {
+    color: var(--font-color-white);
+}
+
+.subscribe-modal .social-item a.inst:hover {
+    background: #C837AB;
+    border-color: #C837AB;
+}
+
+.subscribe-modal .social-item a.tg:hover {
+    background: #039BE5;
+    border-color: #039BE5;
+}
+
+.subscribe-modal .social-item a:hover svg.inst-svg path {
+    stroke: var(--font-color-white);
+}
+
+.subscribe-modal .social-item a:hover svg.tg-svg path {
+    fill: var(--font-color-white);
 }
 
 .subscribe-modal .modal-dialog {
@@ -205,6 +259,10 @@ main {
     border: none;
 }
 
+.header .card-body {
+    padding: 58px 25px;
+}
+
 .header .top-menu-mobile {
     padding: 0;
     margin: 0;
@@ -248,6 +306,34 @@ main {
     border-radius: 4px;
 }
 
+.header .mobile-menu-phone {
+    margin-top: 34px;
+}
+
+.header .phone-link-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: var(--font-color-1);
+    text-decoration: none;
+}
+
+.header .phone-link-mobile svg {
+    margin-right: 17px;
+}
+
+.header .phone-link-mobile span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
 .header .top-menu .top-menu-item a:hover {
     border-bottom: 1px solid #13398D;
 }
@@ -261,10 +347,30 @@ main {
 .header .mobile-menu-button .line {
     background: #85859C;
     height: 2px;
+    -webkit-transition: 0.15s all linear;
+    -o-transition: 0.15s all linear;
+    transition: 0.15s all linear;
 }
 
 .header .mobile-menu-button .line:nth-child(2) {
     margin: 6px 0;
+}
+
+.header .mobile-menu-button.active .line:nth-child(2) {
+    display: none;
+}
+
+.header .mobile-menu-button.active .line-1 {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin: -2px 0;
+}
+
+.header .mobile-menu-button.active .line-2 {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .first-section {
@@ -369,7 +475,7 @@ main {
 .send {
     width: 100%;
     max-width: 204px;
-    height: 100%;
+    height: 101%;
     border: none;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -379,7 +485,16 @@ main {
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase;
-    border-radius: 0px 4px 4px 0px;
+    border-radius: 0 4px 4px 0;
+    margin-right: -1px;
+    cursor: pointer;
+    -webkit-transition: 0.15s all linear;
+    -o-transition: 0.15s all linear;
+    transition: 0.15s all linear;
+}
+
+.send:hover {
+    background: var(--button-hover-color-1);
 }
 
 .second-sections .banner-block {
@@ -541,6 +656,8 @@ main {
     border: none;
     background: inherit;
     cursor: pointer;
+    outline: none;
+    border-radius: 5px;
     -webkit-transition: 0.15s all linear;
     -o-transition: 0.15s all linear;
     transition: 0.15s all linear;
@@ -840,6 +957,16 @@ main {
     box-shadow: none;
 }
 
+.faq-block .faq-item .faq-btn.active img {
+    transform: rotate(180deg);
+}
+
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background: #ffffff;
+    border-color: #ffffff;
+}
+
 .faq-block .faq-item .faq-btn:hover,
 .faq-block .faq-item .faq-btn:active {
     background: inherit;
@@ -1095,6 +1222,11 @@ main {
     .faq-block .faq-item .faq-btn span {
         text-align: left;
     }
+    .header .top-phone-link span {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -1141,6 +1273,7 @@ main {
     .send {
         max-width: 100%;
         height: 80px;
+        border-radius: 0 0 4px 4px;
     }
 
     .footer-sections {
@@ -1164,5 +1297,11 @@ main {
 
     .modal-content {
         padding: 25px 15px 28px;
+    }
+    .send {
+        margin-right: 0;
+    }
+    .third-sections .brand {
+        margin-top: 16px;
     }
 }

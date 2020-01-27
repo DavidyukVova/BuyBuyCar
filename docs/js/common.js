@@ -44,15 +44,34 @@ $( document ).ready(function() {
                 _this.dataset.id == btn.dataset.id ? btn.style.background = '#ffffff' : btn.style.background = 'inherit';
             });
 
+            btns.map(function (btn) {
+                _this.dataset.id == btn.dataset.id ? btn.style.boxShadow = '0px 8px 16px rgba(47, 63, 82, 0.08), 0px 0px 1px rgba(0, 0, 0, 0.12)' : btn.style.boxShadow = 'none';
+            });
+
             prgs.map(function (prg) {
                 _this.dataset.id == prg.dataset.id ? prg.style.display = 'block' : prg.style.display = "none";
             });
         });
     });
 
+
+    //tel mask
+    $('.mask-phone').mask("+38(999) 999 99 99");
+
+
+    //tom menu button
+    $('.mobile-menu-button').on('click', function () {
+        $('.mobile-menu-button').toggleClass('active');
+        $('.top-phone-link').toggleClass('d-none');
+    });
+
+
 });
 
-
+//rotate button for FAQ
+$('.faq-btn').click(function() {
+    $(this).toggleClass('active');
+});
 
 //first form
 $('.send_email_1').on('click', sendEmail1);

@@ -5,7 +5,7 @@ $message .= '<h1>Заказ з сайту BuyBuyCar</h1>';
 $message .= '<p>Имя: '.$_POST['name'].'</p>';
 $message .= '<p>Телефон: '.$_POST['phone'].'</p>';
 
-$to = 'vovkadavidyuk@gmail.com'.',';
+$to = 'buybuycar1@gmail.com'.',';
 $to .=$_POST['email'];
 $spectext = '<!DOCTYPE HTML><html><head><title>Заказ</title></head><body>';
 $headers = 'MIME-Version: 1.0' . "\r\n";
